@@ -1,7 +1,6 @@
-control.set_develop_mode()
-
 # Import the main modules of expyriment
 from expyriment import design, control, stimuli
+control.set_develop_mode()
 
 # Create an object of class Experiment: This stores the global settings of your experiment & handles the data file, screen, and input devices
 exp = design.Experiment(name = "Square")
@@ -12,20 +11,18 @@ control.initialize(exp)
 # Create a fixation cross (color, size, and position will take on default values)
 fixation = stimuli.FixCross() # At this stage the fixation cross is not yet rendered
 
-# Create a 50px-radius circle
-square = stimuli.Rectangle(radius=50)
+# Create a square 
+square = stimuli.Rectangle(size=(50,50), colour=(0,0,255))
 
 # Start running the experiment
 control.start(subject_id=1)
 
-# Present the fixation cross
-fixation.present(clear=True, update=True)
-
-# Leave it on-screen for 1,000 ms
-exp.clock.wait(1000)
+square.present(clear=True, update=False)
+fixation.present(clear=False, update=True)
+exp.clock.wait(500)
 
 # Remove the cross and replace it with a circle
-circle.present(clear=True, update=True)
+square.present(clear=True, update=True)
 
 # Leave it on-screen until a key is pressed
 exp.keyboard.wait()
