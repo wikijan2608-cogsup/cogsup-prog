@@ -1,0 +1,13 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Thu Mar 12 2026 19:39:04
+#sha1: 37b748
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+825,Stimulus,presented,0
+832,Stimulus,presented,1
+833,stderr,received,'Traceback (most recent call last):'
+833,stderr,received,'  File "/Users/mangofreak/Documents/CogSup/Programming/Assignments/Week-2/launching.py", line 17, in <module>'
+833,stderr,received,'    red_square.move(0,0)'
+833,stderr,received,'TypeError: Visual.move() takes 2 positional arguments but 3 were given'

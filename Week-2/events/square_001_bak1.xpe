@@ -1,17 +1,17 @@
 #Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
-#date: Fri Mar 13 2026 11:31:14
+#date: Thu Mar 12 2026 19:23:05
 #sha1: 652ca5
 #modules: 
 #display: size=(800, 600), window_mode=True, opengl=2
 #os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
 Time,Type,Event,Value,Detail,Detail2
-2162,design,log,
+2225,design,log,
 #design: #exp: Square
 #design: block_cnt,block_id,trial_cnt,trial_id
-2162,design,logged,
-2162,Experiment,started
-2163,Stimulus,presented,1
-2172,Stimulus,presented,0
-2688,Stimulus,presented,1
-7383,Keyboard,received,32,wait
-7383,Experiment,ended
+2225,design,logged,
+2225,Experiment,started
+2226,Stimulus,presented,1
+2246,Stimulus,presented,0
+2763,Stimulus,presented,1
+4650,Keyboard,received,32,wait
+4650,Experiment,ended
