@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Sun Mar 15 2026 14:58:23
+#sha1: 0d18a2
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+711,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x106019580>'
+711,stderr,received,'Traceback (most recent call last):'
+711,stderr,received,'  File "/opt/anaconda3/lib/python3.11/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+713,stderr,received,'    if self._compression_filename is not None:'
+713,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+713,stderr,received,"AttributeError: 'Rectangle' object has no attribute '_compression_filename'"
+713,stderr,received,'Traceback (most recent call last):'
+713,stderr,received,'  File "/Users/mangofreak/Documents/CogSup/Programming/Assignments/Week-3/Exercises/sth", line 21, in <module>'
+713,stderr,received,'    top_square = stimuli.Rectangle('
+713,stderr,received,'                 ^^^^^^^^^^^^^^^^^^'
+713,stderr,received,"TypeError: Rectangle.__init__() got an unexpected keyword argument 'line_colour'"
