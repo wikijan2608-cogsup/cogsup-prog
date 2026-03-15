@@ -1,0 +1,20 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Sun Mar 15 2026 11:58:39
+#sha1: c3168f
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+714,Stimulus,rotated,0, degree=180
+716,Stimulus,presented,0
+718,Stimulus,presented,1
+719,Stimulus,presented,2
+720,Stimulus,presented,3
+738,Stimulus,presented,4
+26670,stderr,received,'Traceback (most recent call last):'
+26670,stderr,received,'  File "/Users/mangofreak/Documents/CogSup/Programming/Assignments/Week-2/Exercises/labeled_shapes.py", line 38, in <module>'
+26670,stderr,received,'    exp.keyboard.wait()'
+26671,stderr,received,'  File "/opt/anaconda3/lib/python3.11/site-packages/expyriment/io/_keyboard.py", line 378, in wait'
+26672,stderr,received,'    for event in pygame.event.get([pygame.KEYDOWN, pygame.KEYUP]):'
+26672,stderr,received,'                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+26672,stderr,received,'KeyboardInterrupt'

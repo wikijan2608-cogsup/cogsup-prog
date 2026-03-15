@@ -1,0 +1,23 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Sun Mar 15 2026 11:56:23
+#sha1: 742dde
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+743,Stimulus,rotated,0, degree=180
+745,Stimulus,presented,0
+747,Stimulus,presented,1
+749,Stimulus,presented,2
+765,Stimulus,presented,3
+130759,stderr,received,'Traceback (most recent call last):'
+130759,stderr,received,'  File "/Users/mangofreak/Documents/CogSup/Programming/Assignments/Week-2/Exercises/labeled_shapes.py", line 35, in <module>'
+130760,stderr,received,'    triangle_text.present(clear=False, update=True)'
+130760,stderr,received,'    ^^^^^^^^^^^^^^^^^^^'
+130760,stderr,received,'  File "/opt/anaconda3/lib/python3.11/site-packages/expyriment/io/_keyboard.py", line 376, in wait'
+130768,stderr,received,'    _internals.active_exp.mouse.process_quit_event():'
+130768,stderr,received,'    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+130768,stderr,received,'  File "/opt/anaconda3/lib/python3.11/site-packages/expyriment/io/_mouse.py", line 139, in process_quit_event'
+130771,stderr,received,'    @staticmethod'
+130771,stderr,received,''
+130771,stderr,received,'KeyboardInterrupt'

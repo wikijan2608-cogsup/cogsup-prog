@@ -1,0 +1,12 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Sat Mar 14 2026 17:53:22
+#sha1: c3868d
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+827,stderr,received,'Traceback (most recent call last):'
+827,stderr,received,'  File "/Users/mangofreak/Documents/CogSup/Programming/Assignments/Week-2/Exercises/labeled_shapes.py", line 14, in <module>'
+828,stderr,received,'    vertex_list=geometry.vertices_triangle(50),'
+828,stderr,received,'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+828,stderr,received,"TypeError: vertices_triangle() missing 2 required positional arguments: 'length1' and 'length2'"
