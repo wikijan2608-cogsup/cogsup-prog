@@ -1,0 +1,18 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Sun Mar 15 2026 15:39:28
+#sha1: 8b253a
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+802,stderr,received,'Exception ignored in: <function Visual.__del__ at 0x10ea1d580>'
+804,stderr,received,'Traceback (most recent call last):'
+804,stderr,received,'  File "/opt/anaconda3/lib/python3.11/site-packages/expyriment/stimuli/_visual.py", line 266, in __del__'
+807,stderr,received,'    if self._compression_filename is not None:'
+807,stderr,received,'       ^^^^^^^^^^^^^^^^^^^^^^^^^^'
+807,stderr,received,"AttributeError: 'Circle' object has no attribute '_compression_filename'"
+809,stderr,received,'Traceback (most recent call last):'
+809,stderr,received,'  File "/Users/mangofreak/Documents/CogSup/Programming/Assignments/Week-3/Exercises/kanizsa-square.py", line 44, in <module>'
+810,stderr,received,'    circle = stimuli.Circle(size=circle_diameter, colour=constants.C_BLACK, position=(x, y))'
+810,stderr,received,'             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^'
+810,stderr,received,"TypeError: Circle.__init__() got an unexpected keyword argument 'size'"
