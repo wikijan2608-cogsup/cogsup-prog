@@ -1,15 +1,38 @@
 from expyriment import design, control, stimuli
 import random
+import math
+
+FPS = 60 # frames per second, standard screen refresh rate
+MSPF = 1000 / FPS # milliseconds per frame (more robust than using 16.67) 
+
+def to_frames(t):
+    return math.ceil(t / MSPF) # converts time in ms to number of frames
+
+def to_time(num_frames):
+    return num_frames * MSPF # converts number of frames to ms
 
 def load(stims):
-    pass
+    for stim in stims:
+        stim.preload()
 
 def timed_draw(stims):
-    pass
+    t0 = exp.clock.time
+    exp.screen.clear()
+    for stim in stims:
+        stim.present(clear=False, update=False)
+    exp.screen.update()
+    t1= exp.clock.time
+    dt = t1-t0 
+    return dt
     # return the time it took to draw
 
-def present_for(stims, t=1000):
-    pass
+def present_for(stims, num_frames):
+    if num_frames == 0:
+        return
+    dt = timed_draw(stims) # time needed for correction
+    if dt > 0:
+        t = to_time(num_frames) # convert frames to time
+        exp.clock.wait(t-dt)
 
 
 """ Test functions """

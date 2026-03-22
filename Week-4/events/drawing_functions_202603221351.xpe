@@ -1,0 +1,50 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Sun Mar 22 2026 13:51:07
+#sha1: 112a67
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+855,Stimulus,presented,0
+855,Stimulus,presented,1
+9187,Stimulus,presented,0
+9187,Stimulus,presented,2
+17520,Stimulus,presented,0
+17520,Stimulus,presented,3
+25854,Stimulus,presented,0
+25854,Stimulus,presented,4
+34186,Stimulus,presented,0
+34186,Stimulus,presented,5
+42519,Stimulus,presented,0
+42519,Stimulus,presented,6
+50853,Stimulus,presented,0
+50853,Stimulus,presented,7
+59185,Stimulus,presented,0
+59185,Stimulus,presented,8
+67522,Stimulus,presented,0
+67522,Stimulus,presented,9
+75855,Stimulus,presented,0
+75855,Stimulus,presented,10
+84189,Stimulus,presented,0
+84189,Stimulus,presented,11
+92522,Stimulus,presented,0
+92522,Stimulus,presented,12
+100855,Stimulus,presented,0
+100855,Stimulus,presented,13
+109197,Stimulus,presented,0
+109197,Stimulus,presented,14
+117531,Stimulus,presented,0
+117531,Stimulus,presented,15
+125976,Stimulus,presented,0
+125976,Stimulus,presented,16
+134310,Stimulus,presented,0
+134310,Stimulus,presented,17
+142644,Stimulus,presented,0
+142644,Stimulus,presented,18
+150978,Stimulus,presented,0
+150978,Stimulus,presented,19
+159315,Stimulus,presented,0
+159315,Stimulus,presented,20
+167649,stdout,received,'Timing off. Measured durations were: [8334, 8333, 8333, 8333, 8333, 8333, 8333, 8334, 8335, 8334, 8334, 8333, 8342, 8334, 8445, 8334, 8334, 8334, 8337, 8333]'
+167649,Experiment,ended
+167694,Stimulus,presented,21

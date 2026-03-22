@@ -1,0 +1,50 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Sun Mar 22 2026 13:36:54
+#sha1: 3244f1
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+784,Stimulus,presented,0
+785,Stimulus,presented,1
+9118,Stimulus,presented,0
+9118,Stimulus,presented,2
+17452,Stimulus,presented,0
+17452,Stimulus,presented,3
+25785,Stimulus,presented,0
+25785,Stimulus,presented,4
+34119,Stimulus,presented,0
+34119,Stimulus,presented,5
+42452,Stimulus,presented,0
+42453,Stimulus,presented,6
+50786,Stimulus,presented,0
+50786,Stimulus,presented,7
+59119,Stimulus,presented,0
+59119,Stimulus,presented,8
+67452,Stimulus,presented,0
+67452,Stimulus,presented,9
+75786,Stimulus,presented,0
+75786,Stimulus,presented,10
+84120,Stimulus,presented,0
+84120,Stimulus,presented,11
+92453,Stimulus,presented,0
+92454,Stimulus,presented,12
+100786,Stimulus,presented,0
+100787,Stimulus,presented,13
+109119,Stimulus,presented,0
+109119,Stimulus,presented,14
+117452,Stimulus,presented,0
+117453,Stimulus,presented,15
+125785,Stimulus,presented,0
+125785,Stimulus,presented,16
+134119,Stimulus,presented,0
+134119,Stimulus,presented,17
+142453,Stimulus,presented,0
+142453,Stimulus,presented,18
+150786,Stimulus,presented,0
+150786,Stimulus,presented,19
+159119,Stimulus,presented,0
+159119,Stimulus,presented,20
+167452,stdout,received,'[8333, 8334, 8334, 8334, 8333, 8334, 8333, 8333, 8334, 8334, 8333, 8333, 8333, 8333, 8333, 8334, 8334, 8333, 8333, 8333]'
+167452,Experiment,ended
+167471,Stimulus,presented,21
