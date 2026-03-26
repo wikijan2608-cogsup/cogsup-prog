@@ -2,15 +2,6 @@ from expyriment import design, control, stimuli
 import random
 import math
 
-FPS = 60 # frames per second, standard screen refresh rate
-MSPF = 1000 / FPS # milliseconds per frame (more robust than using 16.67) 
-
-def to_frames(t):
-    return math.ceil(t / MSPF) # converts time in ms to number of frames
-
-def to_time(num_frames):
-    return num_frames * MSPF # converts number of frames to ms
-
 def load(stims):
     for stim in stims:
         stim.preload()
@@ -26,14 +17,12 @@ def timed_draw(stims):
     return dt
     # return the time it took to draw
 
-def present_for(stims, num_frames):
-    if num_frames == 0:
-        return
-    dt = timed_draw(stims) # time needed for correction
-    if dt > 0:
-        t = to_time(num_frames) # convert frames to time
-        exp.clock.wait(t-dt)
+def present_for(stims, t=1000):
+    dt2 = timed_draw(stims)
+    remaining = t - dt2
 
+    if remaining > 0:
+        exp.clock.wait(remaining)
 
 """ Test functions """
 exp = design.Experiment()
@@ -61,6 +50,9 @@ for square in squares:
     durations.append(t1-t0)
     t0 = t1
 
-print(durations)
+if all(abs(d-500) <= 1 for d in durations):
+    print("Well done!")
+else:
+    print(f"Timing off. Measured durations were: {durations}")
 
 control.end()

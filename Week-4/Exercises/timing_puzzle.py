@@ -30,4 +30,5 @@ text2 = stimuli.TextLine(duration_text)
 text2.present()
 exp.clock.wait(2000)
 
+print(dt)
 control.end()
