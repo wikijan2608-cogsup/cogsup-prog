@@ -1,0 +1,59 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Fri Apr 10 2026 11:57:26
+#sha1: 424b11
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2225,design,log,
+#design: #exp: circle-det.vs.stoch.
+#design: #dvn: block,trial,circle_position,key_pressed,correct,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+2225,design,logged,
+2225,Experiment,started
+2237,Stimulus,presented,0
+3238,Stimulus,presented,1
+3254,Stimulus,presented,2
+3792,Keyboard,received,1073741903,wait
+3804,Stimulus,presented,18
+4805,Stimulus,presented,3
+4820,Stimulus,presented,4
+5184,Keyboard,received,1073741903,wait
+5187,Stimulus,presented,19
+6187,Stimulus,presented,5
+6204,Stimulus,presented,6
+6696,Keyboard,received,1073741903,wait
+6704,Stimulus,presented,20
+7704,Stimulus,presented,7
+7721,Stimulus,presented,8
+8026,Keyboard,received,1073741903,wait
+8038,Stimulus,presented,21
+9054,Stimulus,presented,9
+10054,Stimulus,presented,10
+10072,Stimulus,presented,11
+10591,Keyboard,received,1073741903,wait
+10604,Stimulus,presented,22
+11605,Stimulus,presented,12
+11622,Stimulus,presented,13
+12136,Keyboard,received,1073741903,wait
+12154,Stimulus,presented,23
+13155,Stimulus,presented,14
+13172,Stimulus,presented,15
+13508,Keyboard,received,1073741904,wait
+13522,Stimulus,presented,24
+14522,Stimulus,presented,16
+14538,Stimulus,presented,17
+14839,Keyboard,received,1073741904,wait
+14855,Stimulus,presented,25
+15855,Experiment,ended
+15857,Data,saved

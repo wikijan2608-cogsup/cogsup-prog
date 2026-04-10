@@ -1,0 +1,39 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpd-file, coding: UTF-8
+#date: Thu Apr 09 2026 19:50:41
+#--EXPERIMENT INFO
+#e mainfile: check
+#e sha1: b289eb
+#e modules: 
+#e Experiment: Deterministic vs Stochastic
+#e no between subject factors
+#e Block 0: deterministic
+#e     block factors: 
+#e     n trials: 8
+#e     trial factors: correct_key = [1073741903]
+#e                    condition = [det]
+#e                    
+#e Block 1: stochastic
+#e     block factors: 
+#e     n trials: 8
+#e     trial factors: correct_key = [1073741903, 1073741904]
+#e                    condition = [stoch]
+#e                    
+#--SUBJECT INFO
+#s id: 2
+subject_id,block,trial,condition,rt,key,correct
+2,deterministic,0,det,790,1073741903,1
+2,deterministic,1,det,367,1073741903,1
+2,deterministic,2,det,263,1073741903,1
+2,deterministic,3,det,258,1073741903,1
+2,deterministic,4,det,266,1073741903,1
+2,deterministic,5,det,365,1073741903,1
+2,deterministic,6,det,424,1073741903,1
+2,deterministic,7,det,370,1073741903,1
+2,stochastic,0,stoch,345,1073741903,1
+2,stochastic,1,stoch,406,1073741903,1
+2,stochastic,2,stoch,359,1073741903,1
+2,stochastic,3,stoch,323,1073741903,1
+2,stochastic,4,stoch,404,1073741903,1
+2,stochastic,5,stoch,383,1073741903,1
+2,stochastic,6,stoch,600,1073741904,1
+2,stochastic,7,stoch,449,1073741904,1

@@ -1,0 +1,27 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpd-file, coding: UTF-8
+#date: Fri Apr 10 2026 11:57:26
+#--EXPERIMENT INFO
+#e mainfile: circle-det.vs.stoch.
+#e sha1: 424b11
+#e modules: 
+#e Experiment: circle-det.vs.stoch.
+#e no between subject factors
+#e Block 0: deterministic
+#e     block factors: 
+#e     n trials: 5
+#e     trial factors: 
+#e Block 1: stochastic
+#e     block factors: 
+#e     n trials: 5
+#e     trial factors: 
+#--SUBJECT INFO
+#s id: 1
+subject_id,block,trial,circle_position,key_pressed,correct,reaction_time
+1,deterministic,1,right,right,correct,537
+1,deterministic,2,right,right,correct,363
+1,deterministic,3,right,right,correct,491
+1,deterministic,4,right,right,correct,304
+1,stochastic,1,right,right,correct,519
+1,stochastic,2,right,right,correct,514
+1,stochastic,3,left,left,correct,336
+1,stochastic,4,left,left,correct,301

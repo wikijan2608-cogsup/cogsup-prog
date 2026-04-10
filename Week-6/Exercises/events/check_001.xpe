@@ -1,0 +1,111 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Thu Apr 09 2026 19:45:02
+#sha1: 78960e
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='PaReo-CMob-19.descartes.campus', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2117,design,log,
+#design: #exp: Det vs Stoch
+#design: #dvn: block,trial,condition,rt,key,correct
+#design: block_cnt,block_id,trial_cnt,trial_id,condition,correct_key
+#design: 0,0,0,0,det,1073741904
+#design: 0,0,1,1,det,1073741904
+#design: 0,0,2,2,det,1073741903
+#design: 0,0,3,3,det,1073741903
+#design: 0,0,4,4,det,1073741904
+#design: 0,0,5,5,det,1073741904
+#design: 0,0,6,6,det,1073741903
+#design: 0,0,7,7,det,1073741903
+#design: 1,1,0,0,stoch,1073741903
+#design: 1,1,1,1,stoch,1073741904
+#design: 1,1,2,2,stoch,1073741904
+#design: 1,1,3,3,stoch,1073741904
+#design: 1,1,4,4,stoch,1073741904
+#design: 1,1,5,5,stoch,1073741903
+#design: 1,1,6,6,stoch,1073741904
+#design: 1,1,7,7,stoch,1073741904
+2117,design,logged,
+2117,Experiment,started
+2125,Stimulus,presented,0
+3125,Stimulus,presented,1
+3142,Stimulus,presented,2
+3981,Keyboard,received,1073741904,wait
+3992,Stimulus,presented,48
+5008,Stimulus,presented,3
+6008,Stimulus,presented,4
+6025,Stimulus,presented,5
+7022,Keyboard,received,1073741904,wait
+7025,Stimulus,presented,49
+8043,Stimulus,presented,6
+9043,Stimulus,presented,7
+9059,Stimulus,presented,8
+9503,Keyboard,received,1073741903,wait
+9509,Stimulus,presented,50
+10526,Stimulus,presented,9
+11526,Stimulus,presented,10
+11543,Stimulus,presented,11
+11968,Keyboard,received,1073741903,wait
+11976,Stimulus,presented,51
+12993,Stimulus,presented,12
+13993,Stimulus,presented,13
+14009,Stimulus,presented,14
+14402,Keyboard,received,1073741904,wait
+14409,Stimulus,presented,52
+15426,Stimulus,presented,15
+16426,Stimulus,presented,16
+16443,Stimulus,presented,17
+16875,Keyboard,received,1073741904,wait
+16893,Stimulus,presented,53
+17909,Stimulus,presented,18
+18910,Stimulus,presented,19
+18926,Stimulus,presented,20
+19348,Keyboard,received,1073741903,wait
+19360,Stimulus,presented,54
+20375,Stimulus,presented,21
+21376,Stimulus,presented,22
+21393,Stimulus,presented,23
+21706,Keyboard,received,1073741903,wait
+21726,Stimulus,presented,55
+22743,Stimulus,presented,24
+23743,Stimulus,presented,25
+23760,Stimulus,presented,26
+24274,Keyboard,received,1073741903,wait
+24292,Stimulus,presented,56
+25310,Stimulus,presented,27
+26310,Stimulus,presented,28
+26327,Stimulus,presented,29
+26745,Keyboard,received,1073741904,wait
+26760,Stimulus,presented,57
+27777,Stimulus,presented,30
+28777,Stimulus,presented,31
+28794,Stimulus,presented,32
+29120,Keyboard,received,1073741904,wait
+29126,Stimulus,presented,58
+30144,Stimulus,presented,33
+31144,Stimulus,presented,34
+31159,Stimulus,presented,35
+31536,Keyboard,received,1073741904,wait
+31543,Stimulus,presented,59
+32561,Stimulus,presented,36
+33561,Stimulus,presented,37
+33577,Stimulus,presented,38
+33904,Keyboard,received,1073741904,wait
+33910,Stimulus,presented,60
+34927,Stimulus,presented,39
+35927,Stimulus,presented,40
+35944,Stimulus,presented,41
+36322,Keyboard,received,1073741903,wait
+36327,Stimulus,presented,61
+37344,Stimulus,presented,42
+38344,Stimulus,presented,43
+38361,Stimulus,presented,44
+39756,Keyboard,received,1073741904,wait
+39760,Stimulus,presented,62
+40778,Stimulus,presented,45
+41778,Stimulus,presented,46
+41794,Stimulus,presented,47
+42193,Keyboard,received,1073741904,wait
+42211,Stimulus,presented,63
+43211,Experiment,ended
+43216,Data,saved

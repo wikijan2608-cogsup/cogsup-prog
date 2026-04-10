@@ -1,0 +1,59 @@
+#Expyriment 1.0.0 (Python 3.11.7), .xpe-file, coding: UTF-8
+#date: Fri Apr 10 2026 11:33:22
+#sha1: d2fb5c
+#modules: 
+#display: size=(800, 600), window_mode=True, opengl=2
+#os: uname_result(system='Darwin', node='Wiktorias-MacBook-Air.local', release='21.6.0', version='Darwin Kernel Version 21.6.0: Mon Jun 24 00:56:10 PDT 2024; root:xnu-8020.240.18.709.2~1/RELEASE_X86_64', machine='x86_64')
+Time,Type,Event,Value,Detail,Detail2
+2869,design,log,
+#design: #exp: check
+#design: #dvn: block,trial,circle_position,key_pressed,correct,reaction_time
+#design: block_cnt,block_id,trial_cnt,trial_id
+#design: 0,0,0,0
+#design: 0,0,1,1
+#design: 0,0,2,2
+#design: 0,0,3,3
+#design: 0,0,4,4
+#design: 1,1,0,0
+#design: 1,1,1,1
+#design: 1,1,2,2
+#design: 1,1,3,3
+#design: 1,1,4,4
+2869,design,logged,
+2869,Experiment,started
+2880,Stimulus,presented,0
+3881,Stimulus,presented,1
+3897,Stimulus,presented,2
+4519,Keyboard,received,1073741903,wait
+4531,Stimulus,presented,18
+5539,Stimulus,presented,3
+5556,Stimulus,presented,4
+5938,Keyboard,received,1073741903,wait
+5947,Stimulus,presented,19
+6947,Stimulus,presented,5
+6964,Stimulus,presented,6
+7231,Keyboard,received,1073741903,wait
+7247,Stimulus,presented,20
+8255,Stimulus,presented,7
+8264,Stimulus,presented,8
+8496,Keyboard,received,1073741903,wait
+8514,Stimulus,presented,21
+9532,Stimulus,presented,9
+10532,Stimulus,presented,10
+10549,Stimulus,presented,11
+10982,Keyboard,received,1073741903,wait
+10998,Stimulus,presented,22
+11999,Stimulus,presented,12
+12015,Stimulus,presented,13
+12397,Keyboard,received,1073741904,wait
+12416,Stimulus,presented,23
+13418,Stimulus,presented,14
+13431,Stimulus,presented,15
+13841,Keyboard,received,1073741903,wait
+13847,Stimulus,presented,24
+14847,Stimulus,presented,16
+14865,Stimulus,presented,17
+15291,Keyboard,received,1073741903,wait
+15298,Stimulus,presented,25
+16298,Experiment,ended
+16303,Data,saved
